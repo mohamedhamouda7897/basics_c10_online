@@ -15,16 +15,16 @@ class CalcBtn extends StatelessWidget {
               onClick(label);
 
             },
-            child: Text(
-              label,
-              style: TextStyle(
-                  fontSize: 32,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white),
-            ),
             style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.blue,
                 shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(8)))));
+                    borderRadius: BorderRadius.circular(8))),
+            child: Text(
+              label,
+              style: const TextStyle(
+                  fontSize: 32,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white),
+            )));
   }
 }

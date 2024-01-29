@@ -16,7 +16,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.cyanAccent,
-        title: Text("Calculator"),
+        title: const Text("Calculator"),
       ),
       body: Column(
         children: [
@@ -26,7 +26,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
               width: double.infinity,
               child:  Text(
                 displayResult,
-                style: TextStyle(fontWeight: FontWeight.w200, fontSize: 35),
+                style: const TextStyle(fontWeight: FontWeight.w200, fontSize: 35),
               ),
             ),
           ),
