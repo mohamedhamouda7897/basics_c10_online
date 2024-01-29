@@ -15,7 +15,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.cyanAccent,
+        backgroundColor: Colors.green.shade200,
         title: const Text("Calculator"),
       ),
       body: Column(
