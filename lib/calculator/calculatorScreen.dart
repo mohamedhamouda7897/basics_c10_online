@@ -26,7 +26,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
               width: double.infinity,
               child:  Text(
                 displayResult,
-                style: const TextStyle(fontWeight: FontWeight.w200, fontSize: 35),
+                style: const TextStyle(fontWeight: FontWeight.w300, fontSize: 35),
               ),
             ),
           ),
